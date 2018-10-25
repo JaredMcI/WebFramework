@@ -3,10 +3,14 @@ var router = express.Router();
 
 const ctrlHome = require('../controllers/home'); 
 const ctrlOthers = require('../controllers/others');
-/* Locations pages */
-router.get('/', ctrlHome.filmList);
-router.get('/info', ctrlHome.homeInfo);
-router.get('/film', ctrlHome.filmInfo);
-/* Other pages */
-router.get('/about', ctrlOthers.about);
+const ctrlSignUp = require('../controllers/signUp');
+const ctrlLogIn = require('../controllers/login');
+
+
+router.get('/', ctrlHome.home);
+router.get('/signUp', ctrlSignUp.register);
+router.get('/login', ctrlLogIn.login);
+router.get('/info', ctrlOthers.about);
+
+
 module.exports = router;
