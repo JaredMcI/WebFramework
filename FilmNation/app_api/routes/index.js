@@ -4,7 +4,7 @@ const router = express.Router();
 const ctrlUsers = require('../controllers/users');
 const ctrlFilms = require('../controllers/films');
 const ctrlStoredFilms = require('../controllers/storedFilms');
-const ctrlAbout = require('../controllers/about');
+
 
 // users
 router
@@ -12,7 +12,7 @@ router
     .get(ctrlUsers.UsersCreate)
     .post(ctrlUsers.UsersCreate);
 router
-    .route('/users/userid')
+    .route('/users/:userid')
     .get(ctrlUsers.UsersReadOne)
     .put(ctrlUsers.UsersUpdateOne)
     .delete(ctrlUsers.UsersDeleteOne);
@@ -36,7 +36,7 @@ router
     .post(ctrlFilms.FilmsCreate);
 
 router
-    .route('/movies/:filmid')
+    .route('/films/:filmid')
     .get(ctrlFilms.FilmsReadOne)
     .put(ctrlFilms.FilmsUpdateOne)
     .delete(ctrlFilms.FilmsDeleteOne);

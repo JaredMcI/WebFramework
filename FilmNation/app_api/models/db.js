@@ -49,6 +49,7 @@ process.on('SIGTERM', () => {
 });
 
 require('./film');
+require('./user')
 
 
 

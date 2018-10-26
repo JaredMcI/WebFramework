@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
 
-const Actorschema = new mongoose.Schema({
-    lead: String,
-    secondary: String,
-    support: String
+const ActorSchema = new mongoose.Schema({
+    name: String,
+    role: String
 
 });
 
@@ -24,26 +23,9 @@ const filmSchema = new mongoose.Schema({
         type: Number,
         'default': 0
     },
-    actors: [Actorschema]
-});
-const userSchema = new mongoose.Schema({
-    username: {
-        type: String,
-        required: true
-    },
-    password: {
-        type: String,
-        required: true
-    },
-    email: {
-        type: String,
-        required: true
-    },
-    name: String
-
+    actors: [ActorSchema]
 });
 
 
 mongoose.model('film', filmSchema);
-mongoose.model('user', userSchema);
 
