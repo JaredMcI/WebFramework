@@ -4,6 +4,7 @@ const router = express.Router();
 const ctrlUsers = require('../controllers/users');
 const ctrlFilms = require('../controllers/films');
 const ctrlStoredFilms = require('../controllers/storedFilms');
+const ctrlAbout = require('../controllers/about');
 
 
 // users
@@ -42,3 +43,18 @@ router
     .delete(ctrlFilms.FilmsDeleteOne);
 
 module.exports = router;
+
+
+// about
+router
+    .route('/abouts')
+    .get(ctrlAbout.AboutCreate)
+    .post(ctrlAbout.AboutCreate);
+
+router
+    .route('/abouts/:aboutid')
+    .get(ctrlAbout.AboutReadOne)
+    .put(ctrlAbout.AboutUpdateOne)
+    .delete(ctrlAbout.AboutDeleteOne);
+
+
