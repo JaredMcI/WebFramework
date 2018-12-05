@@ -20,7 +20,7 @@ const renderInfoPage = function(req, res, responseBody){
     }
     console.log(responseBody);
     res.render('index', {
-        title: 'FilNation is your new home for details on films.',
+        title: 'FilmNation About Page.',
 
         info: responseBody,
         message: message,
@@ -30,7 +30,7 @@ const renderInfoPage = function(req, res, responseBody){
 /* GET about page */
 
 const about = function(req, res,body){
-    const path = `/api/info/5c07ed4b94b2f9b72c601e14` ;
+    const path = `/api/info/5c0801faedcdbf231f45a9be` ;
     const requestOptions = {
         url : apiOptions.server + path,
         method : 'GET',
