@@ -3,10 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="f29e7b23-8d3c-4c72-a2e9-a2157f13cd4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app_api/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_server/controllers/others.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/controllers/others.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app_api/controllers/films.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/films.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/models/film.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/film.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,46 +42,74 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
+<<<<<<< HEAD
           <entry key="js" value="53" />
+=======
+          <entry key="js" value="33" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
           <entry key="json" value="2" />
-          <entry key="pug" value="19" />
+          <entry key="pug" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JSON" value="2" />
+<<<<<<< HEAD
           <entry key="Jade" value="19" />
           <entry key="JavaScript" value="53" />
+=======
+          <entry key="Jade" value="13" />
+          <entry key="JavaScript" value="33" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="58" />
+<<<<<<< HEAD
           <entry key="js" value="1255" />
           <entry key="pug" value="204" />
+=======
+          <entry key="js" value="1171" />
+          <entry key="pug" value="100" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="58" />
+<<<<<<< HEAD
           <entry key="Jade" value="204" />
           <entry key="JavaScript" value="1255" />
+=======
+          <entry key="Jade" value="100" />
+          <entry key="JavaScript" value="1171" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_api/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_api/models/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_api/controllers/about.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,6 +154,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_api/controllers/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
             </state>
           </provider>
         </entry>
@@ -143,18 +188,22 @@
       <list>
         <option value="$PROJECT_DIR$/public/javascripts/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app_server/controllers/signUp.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/home.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/login.js" />
+        <option value="$PROJECT_DIR$/app_server/views/login.pug" />
         <option value="$PROJECT_DIR$/app_server/models/locations.js" />
         <option value="$PROJECT_DIR$/app_server/models/db.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app_server/models/film.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/storedFilms.js" />
         <option value="$PROJECT_DIR$/app_api/models/film.js" />
+        <option value="$PROJECT_DIR$/app_api/models/db.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/films.js" />
         <option value="$PROJECT_DIR$/app_server/views/layout.pug" />
         <option value="$PROJECT_DIR$/app_server/routes/index.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/users.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app_server/views/login.pug" />
         <option value="$PROJECT_DIR$/app_server/controllers/signUp.js" />
         <option value="$PROJECT_DIR$/app_server/views/signup.pug" />
@@ -164,6 +213,8 @@
         <option value="$PROJECT_DIR$/app_api/models/about.js" />
         <option value="$PROJECT_DIR$/app_api/routes/index.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/others.js" />
+=======
+>>>>>>> parent of 5bf15a6... Cleaned up some code
       </list>
     </option>
   </component>
@@ -183,7 +234,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="y" value="338" />
     <option name="width" value="974" />
@@ -226,6 +277,37 @@
               <item name="app_api" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="FilmNation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FilmNation" type="462c0819:PsiDirectoryNode" />
+              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FilmNation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FilmNation" type="462c0819:PsiDirectoryNode" />
+              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FilmNation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FilmNation" type="462c0819:PsiDirectoryNode" />
+              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FilmNation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FilmNation" type="462c0819:PsiDirectoryNode" />
+              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FilmNation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FilmNation" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> parent of 5bf15a6... Cleaned up some code
           </expand>
           <select />
         </subPane>
@@ -267,16 +349,27 @@
       <workItem from="1540470545888" duration="1372000" />
       <workItem from="1540481671363" duration="4059000" />
       <workItem from="1540488130182" duration="9014000" />
+<<<<<<< HEAD
       <workItem from="1540547334240" duration="11183000" />
       <workItem from="1543945792587" duration="4282000" />
+=======
+      <workItem from="1540547334240" duration="6290000" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="29910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="338" width="974" height="829" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="20735000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28952992" />
@@ -340,10 +433,50 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app_server/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/error.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/film.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/signUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of 5bf15a6... Cleaned up some code
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/login.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -355,6 +488,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -380,40 +514,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/films.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/film.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/login.pug">
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/others.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/signup.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_server/views/layout.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="50" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_server/views/index.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/error.pug">
+    <entry file="file://$PROJECT_DIR$/app_api/models/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="850">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -448,10 +587,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/models/db.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="477">
           <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+=======
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
         </state>
       </provider>
     </entry>
@@ -488,8 +632,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_api/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="306">
           <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+=======
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+>>>>>>> parent of 5bf15a6... Cleaned up some code
         </state>
       </provider>
     </entry>
