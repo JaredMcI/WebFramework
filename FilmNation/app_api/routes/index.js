@@ -1,10 +1,11 @@
 
 const express = require('express');
 const router = express.Router();
+const ctrlAbout = require('../controllers/info');
 const ctrlUsers = require('../controllers/users');
 const ctrlFilms = require('../controllers/films');
 const ctrlStoredFilms = require('../controllers/storedFilms');
-const ctrlAbout = require('../controllers/about');
+
 
 
 // users
@@ -42,19 +43,18 @@ router
     .put(ctrlFilms.FilmsUpdateOne)
     .delete(ctrlFilms.FilmsDeleteOne);
 
+// info
+router
+    .route('/info')
+    .get(ctrlAbout.InfoCreate)
+    .post(ctrlAbout.InfoCreate);
+
+router
+    .route('/info/:infoid')
+    .get(ctrlAbout.InfoReadOne)
+    .put(ctrlAbout.InfoUpdateOne)
+    .delete(ctrlAbout.InfoDeleteOne);
+
+
 module.exports = router;
-
-
-// about
-router
-    .route('/abouts')
-    .get(ctrlAbout.AboutCreate)
-    .post(ctrlAbout.AboutCreate);
-
-router
-    .route('/abouts/:aboutid')
-    .get(ctrlAbout.AboutReadOne)
-    .put(ctrlAbout.AboutUpdateOne)
-    .delete(ctrlAbout.AboutDeleteOne);
-
 

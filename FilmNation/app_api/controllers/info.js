@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
-const abouts = mongoose.model('About');
+const infos = mongoose.model('infos');
 
-const AboutCreate = function (req, res) {
-    abouts.create({
-        paragraph: req.body.paragraph,
+const InfoCreate = function (req, res) {
+    info.create({
+        description: req.body.description,
     }, (err, about) => {
         if (err) {
             res
@@ -17,16 +17,16 @@ const AboutCreate = function (req, res) {
     });
 };
 
-const AboutReadOne = function (req, res) {
-    if (req.params && req.params.aboutid) {
-        abouts
-            .findById(req.params.aboutid)
-            .exec((err, about) => {
-                if (!about) {
+const InfoReadOne = function (req, res) {
+    if (req.params && req.params.infoid) {
+        infos
+            .findById(req.params.infoid)
+            .exec((err, info) => {
+                if (!info) {
                     res
                         .status(404)
                         .json({
-                            "message": "Aboutid not found"
+                            "message": "infoid not found"
                         });
                     return;
                 } else if (err) {
@@ -37,34 +37,34 @@ const AboutReadOne = function (req, res) {
                 }
                 res
                     .status(200)
-                    .json(about);
+                    .json(info);
             });
     } else {
         res
             .status(404)
             .json({
-                "message": "No Aboutid in request"
+                "message": "No infoid in request"
             });
     }
 };
 
-const AboutUpdateOne = function (req, res) {
-    if (!req.params.aboutid) {
+const InfoUpdateOne = function (req, res) {
+    if (!req.params.infoid) {
         res
             .status(404)
             .json({
-                "message": "Not found, aboutid is required"
+                "message": "Not found, infoid is required"
             });
         return;
     }
-    abouts
-        .findById(req.params.aboutid)
+    info
+        .findById(req.params.infoid)
         .exec((err, about) => {
                 if (!about) {
                     res
                         .json(404)
                         .status({
-                            "message": "aboutid not found"
+                            "message": "infoid not found"
                         });
                     return;
                 } else if (err) {
@@ -89,11 +89,11 @@ const AboutUpdateOne = function (req, res) {
         );
 };
 
-const AboutDeleteOne = function (req, res) {
-    const aboutid = req.params.aboutid;
-    if (aboutid) {
-        abouts
-            .findByIdAndRemove(aboutid)
+const InfoDeleteOne = function (req, res) {
+    const infoid = req.params.infoid;
+    if (infoid) {
+        info
+            .findByIdAndRemove(infoid)
             .exec((err, about) => {
                     if (err) {
                         res
@@ -110,14 +110,15 @@ const AboutDeleteOne = function (req, res) {
         res
             .status(404)
             .json({
-                "message": "No aboutid"
+                "message": "No infoid"
             });
     }
 };
 
 
 module.exports = {
-    AboutCreate,
-    AboutReadOne,
-    AboutUpdateOne,
-    AboutDeleteOne,
+    InfoCreate,
+    InfoReadOne,
+    InfoUpdateOne,
+    InfoDeleteOne,
+};

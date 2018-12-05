@@ -10,6 +10,7 @@ const ctrlLogIn = require('../controllers/login');
 router.get('/', ctrlHome.home);
 router.get('/signUp', ctrlSignUp.register);
 router.get('/login', ctrlLogIn.login);
+
 router.get('/info', ctrlOthers.about);
 
 
