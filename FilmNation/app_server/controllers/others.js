@@ -30,7 +30,7 @@ const renderInfoPage = function(req, res, responseBody){
 /* GET about page */
 
 const about = function(req, res,body){
-    const path = `/api/info/5c0801faedcdbf231f45a9be` ;
+    const path = `/api/info/5c08163c96d14121b1882b15` ;
     const requestOptions = {
         url : apiOptions.server + path,
         method : 'GET',

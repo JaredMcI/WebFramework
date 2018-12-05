@@ -1,23 +1,9 @@
 extends layout
 
 block content
-    .main.container
-        .row
-            .col-md-6.col-md-offset-3
-                h1.display-4.m-b-2 Log In to FILM NATION
+    app-sign-up Loading
 
-                // Login form
-                form(method='POST' action='/register')
-                    div.form-group
-                        label(for='email') Username/Email:
-                        input#username.form-control(type='text', placeholder='Username/Email' name='email')
-                    div.form-group
-                        label(for='pw') Password:
-                        input#pw.form-control(type='password' name='password')
-                        div.form-group
-                            label(for='email') Username/Email:
-                            input#email.form-control(type='text', placeholder='email' name='email')
-                        div.form-group
-                            label(for='pw') Password:
-                            input#name.form-control(type='text' name='name')
-                    button.btn.btn-primary(type='submit') SignUp
+block scripts
+    script(src='/build/runtime.ec2944dd8b20ec099bf3.js')
+    script(src='/build/polyfills.20ab2d163684112c2aba.js')
+    script(src='/build/main.e23bbbe488b58d8f6c9b.js')
